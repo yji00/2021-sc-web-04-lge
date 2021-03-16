@@ -1,0 +1,33 @@
+/*보라색 #ae1a4a 
+background-img : url('../img/common.png);
+background -position: 0 0;
+background-repeat:no-repeat;
+---한줄로 --- 
+background: 1 2 3 4
+background: #333 url('../img/common.png') no-repeat 0 0;
+background: url('../img/common.png') no-repeat 0 0;
+background: url('../img/common.png');
+background: #333;
+*/
+
+@import './lge-font.css';
+
+html, body{font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
+
+.wrapper{max-width: 1600px; margin: auto; padding: 0 30px;}
+
+/*header-wrapper */
+.header-wrapper{}
+	.header-wrapper .top-wrapper{background-color: #333; padding: 20px 0 6px 0;}
+		.top-wrapper .top-wrap {float: right; padding: 6px 16px; background-color: #ae1a4a; border-radius: 13px;} /* ul높이 27 /2  으로  */
+		.top-wrapper .top-wrap li{float: left; color: aliceblue;}
+		.top-wrapper .top-wrap li:nth-child(2){margin: 0 12px;}/*li의 nth-child 번째 자식 */
+
+	.header-wrapper .navi-wrapper{background-color: #333;}
+		.navi-wrapper .logo{width: 164px; height: 43px; float: left; background-image: url('../img/common.png') ;}
+			.navi-wrapper .logo a{display:inline-block; width:  100%; height: 100%; }
+		.navi-wrapper .navi-wrap{color: whitesmoke; float: right; font-size: 18px; }
+		.navi-wrapper .navi-wrap .navi{float: left; padding: 16px 14px 30px 14px;}
+		.navi-wrappper .navi-wrap .navi:last-child>span{opacity: .5;} /* first-child last-child */
+
+	.header-wrapper .navi-wrapper2{background-color: #ae1a4a;}

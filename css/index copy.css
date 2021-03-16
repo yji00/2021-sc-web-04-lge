@@ -1,0 +1,19 @@
+
+
+@import'./lge-font.css';
+
+html, body{font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
+.wrapper{max-width: 1600px; margin: auto; padding: 0 30px;}
+
+.header-wrapper{}
+	.header-wrapper .top-wrapper{background-color: #333; padding: 20px 0 6px 0;}
+		.top-wrapper ul.top-wrap{float: right;  background-color: #ae1a4a; border-radius: 13px; padding: 6px 16px;}
+		.top-wrapper ul.top-wrap li{float: left; color: whitesmoke;}
+		.top-wrapper ul.top-wrap li:nth-child(2){margin: 0 12px; opacity: .5;}
+	.navi-wrapper{background-color: #333;}
+		.navi-wrapper .logo{width: 164px; height: 43px; float: left; background-image: url('../img/common.png');}
+		.navi-wrapper .logo a{display:inline-block; width: 100%; height: 100%;}
+		.navi-wrapper .navi-wrap{float: right; color: whitesmoke; font-size: 18px;}
+		.navi-wrapper .navi-wrap .navi{float: left; padding: 16px 14px 30px 14px;} 
+
+	
